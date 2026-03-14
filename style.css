@@ -96,9 +96,7 @@
 }
 
 /* box4&5*/
-.sign-in{
 
-}
 
 .hello{
     font-size: 0.75rem;
@@ -176,3 +174,34 @@
 .hero-msg a{
     color: #007185;
 }
+
+/*shop section*/
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(221, 248, 242);
+}
+
+.box{
+    height: 400px;
+    width: 22%;
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+.box-img{
+    height: 320px;
+    background-size:cover;
+}
+
