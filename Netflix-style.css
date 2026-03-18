@@ -5,7 +5,8 @@
 
 .bg{
     background-image: url("netflix-bg.jpg");
-    height: 80vh;
+    background-size: cover;
+    height: 900px;
     width: 100%;
     
 }
@@ -42,7 +43,7 @@
     display: flex;
     justify-content: center;
     max-width: 40vw;
-    height: 100%;
+    height: 520px;
     margin: auto;
     flex-direction: column;
     align-items: center;
@@ -73,7 +74,8 @@
 .email-box{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 15px;
+    margin-top: 30px;
+
 }
 
 .email:hover{
@@ -95,4 +97,66 @@
     font-weight: 800;
     color: white;
     background-color: rgb(240, 17, 17);
+}
+
+.movie{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+.anime:hover{
+    border-color: rgb(243, 57, 57);
+}
+
+.b1{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+
+}
+
+.b2{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+}
+
+.b3{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+}
+
+.b4{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+}
+
+.b5{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box5_image.jpg");
+    background-size: cover;
 }
