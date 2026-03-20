@@ -106,6 +106,14 @@
     background-color:transparent;
 }
 
+.movie-2{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:transparent;
+    background-image: url(netflix-bg.jpg);
+}
+
 .anime:hover{
     border-color: rgb(241, 134, 33);
 }
@@ -158,6 +166,36 @@
     border-radius: 4px;
     margin-top: 25px;
     background-image: url("box5_image.jpg");
+    background-size: cover;
+}
+
+.b6{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+}
+
+.b7{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+}
+
+.b8{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-image: url("box8_image.jpg");
     background-size: cover;
 }
 
