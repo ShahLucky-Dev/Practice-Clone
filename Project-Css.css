@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(203, 222, 239);
+}
+
+.container{
+    min-height: 100vh;
+    border: 15px solid rgb(34, 34, 80);
+}
+
+.top-section{
+
+}
+
+.img{
+    width: 300px;
+    height: 320px;
+}
