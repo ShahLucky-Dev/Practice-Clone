@@ -2,7 +2,7 @@ console.log("Welcome to Tic-Tac-Toe");
 
 let music = new Audio("music.mp3");
 let pop = new Audio("pop.mp3");
-let go = new Audio("gameover_1.mp3");
+let go = new Audio("happy-happy-happy-song.mp3");
 
 let turn = "X";
 
@@ -34,6 +34,7 @@ const checkwin = () => {
       document.querySelector(".info").innerText =
         boxtext[e[0]].innerText + " won";
       gameover = true;
+      go.play();
       document.getElementById("img").style.width = "180px";
     }
   });
@@ -47,7 +48,7 @@ Array.from(boxes).forEach((element) => {
 
   element.addEventListener("click", () => {
     // Agar box empty hai tabhi fill hoga
-    if (boxtext.innerText === "") {
+    if (boxtext.innerText === "" && !gameover) {
       // Current turn print karo
       boxtext.innerText = turn;
 
@@ -65,5 +66,16 @@ Array.from(boxes).forEach((element) => {
           "Turn for " + turn;
       }
     }
+  });
+});
+
+reset.addEventListener("click", () => {
+  let boxtexts = document.querySelectorAll(".boxtext");
+  Array.from(boxtexts).forEach((element) => {
+    element.innerText = "";
+    turn = "X";
+    gameover = false;
+    document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
+    document.getElementById("img").style.width = "0px";
   });
 });
