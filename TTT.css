@@ -14,11 +14,11 @@
   font-size: 3vh;
 }
 .gamecontainer {
-  background-color: rgb(94, 168, 234);
+  /* background-color: rgb(168, 211, 248); */
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  border: 1.5px solid blue;
+  /* border: 1.5px solid blue; */
 }
 
 .container {
@@ -44,9 +44,9 @@
   transition: width 1s ease-in-out;
 }
 .gameinfo {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding: auto;
-  margin: 15px;
+  margin-left: 15px;
 }
 
 .br-0 {
@@ -60,4 +60,12 @@
 }
 .bb-0 {
   border-bottom: 0;
+}
+
+#reset {
+  cursor: pointer;
+  color: cornflowerblue;
+  background-color: lavender;
+  border-radius: 14px;
+  padding: 10px;
 }
