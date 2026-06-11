@@ -2,6 +2,11 @@ button {
   cursor: pointer;
 }
 
+.container button {
+  background-color: rgb(241, 200, 139);
+  border-radius: 15%;
+}
+
 ul {
   background-color: orange;
   padding: 5px;
@@ -17,6 +22,8 @@ ul {
 
 ul button {
   margin-left: 5px;
+  background-color: rgb(241, 200, 139);
+  border-radius: 15%;
 }
 
 h2 {
